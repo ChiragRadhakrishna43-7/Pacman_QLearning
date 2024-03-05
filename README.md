@@ -18,3 +18,8 @@ Firstly, we call the getLegalActions() method to determine the possible actions 
 <h4>3.computeActionFromQValues:</h4>
 <p align="justify">Like the computeValueFromQValues() function, we obtain the actions that can be taken at the state using the getLegalActions() method. The getLegalActions method returns a list of possible actions that can be performed at the state. We iterate through each action and find the maximum value. In this process, we also store the associated action that corresponds to the maximum value found.
 When the loop terminates, we have found the action that yields the maximum Q value and return it.</p>
+
+![Screenshot 2024-03-05 115358](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/56f8fcde-9a02-4302-88b4-b7d9968bc3e5)
+
+<h4>4.update:</h4>
+<p align="justify">The update function helps update the Q-values. At first, the old Q-value is calculated. The old value is reduced by a factor of (1- self.alpha). We then compute the new Q-value by considering the observed reward and the estimated value of the next state. The Q-value for the (state, action) is obtained by adding the previous and new values.</p>
