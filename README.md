@@ -23,3 +23,8 @@ When the loop terminates, we have found the action that yields the maximum Q val
 
 <h4>4.update:</h4>
 <p align="justify">The update function helps update the Q-values. At first, the old Q-value is calculated. The old value is reduced by a factor of (1- self.alpha). We then compute the new Q-value by considering the observed reward and the estimated value of the next state. The Q-value for the (state, action) is obtained by adding the previous and new values.</p>
+
+![Screenshot 2024-03-05 115646](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/8d8693d2-a000-4c83-bd68-cccc54007788)
+
+<h4>5.getAction:</h4>
+<p align="justify">We obtain the actions that can be performed at the given state using the getLegalActions() method. A coin flip is implemented with probability epsilon to pick an action from the list of actions at random. If the coin flip does not help in selection of a random action, the best action based on the Q-value is chosen. In the end, return the action that has been selected. </p>
