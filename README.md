@@ -31,4 +31,4 @@ When the loop terminates, we have found the action that yields the maximum Q val
 
 ![Screenshot 2024-03-05 115904](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/00131293-b9c0-429d-9ade-f093739fd837)
 
-<p>Results:</p>
+<h2><p>Results:</p></h2>
