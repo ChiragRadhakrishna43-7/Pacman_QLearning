@@ -32,3 +32,15 @@ When the loop terminates, we have found the action that yields the maximum Q val
 ![Screenshot 2024-03-05 115904](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/00131293-b9c0-429d-9ade-f093739fd837)
 
 <h2><p>Results:</p></h2>
+
+![Screenshot 2024-03-05 120225](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/bae688f6-1b72-4997-ac03-da55eb13f2c9)
+
+<p align="justify"><b>Implementing 4 manual episodes for the agent. Rewards for each action are shown accordingly.</b></p>
+
+![Screenshot 2024-03-05 120255](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/72c25c34-32f0-4eda-9eb6-1b483828d8ad)
+
+<p align="justify"><b>Simulating 100 episodes for the agent and highlighting the rewards for each potential action per square.</b></p>
+
+![Screenshot 2024-03-05 120324](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/cb1113cc-c192-4149-95e1-c6333416088f)
+
+<p align="justify"><b>Crawler agent learning to move from one side of the screen to the other.</b></p>
