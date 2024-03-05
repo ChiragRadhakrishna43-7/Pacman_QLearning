@@ -28,3 +28,6 @@ When the loop terminates, we have found the action that yields the maximum Q val
 
 <h4>5.getAction:</h4>
 <p align="justify">We obtain the actions that can be performed at the given state using the getLegalActions() method. A coin flip is implemented with probability epsilon to pick an action from the list of actions at random. If the coin flip does not help in selection of a random action, the best action based on the Q-value is chosen. In the end, return the action that has been selected. </p>
+
+![Screenshot 2024-03-05 115904](https://github.com/ChiragRadhakrishna43-7/Pacman_QLearning/assets/121251823/00131293-b9c0-429d-9ade-f093739fd837)
+
